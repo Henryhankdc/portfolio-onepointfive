@@ -1,0 +1,38 @@
+/* Responsive Styles */
+
+@media (max-width:425px) {
+    h1.logo {
+        font-size: 1em;
+  
+    }
+    
+    .content-main h2 {
+        font-size: 3em;
+        letter-spacing: 5px;
+    }
+    .content-main h3 {
+        font-size: 2em;
+        letter-spacing: 5px;
+    }
+    .contact-info h1 {
+        font-size:2em;
+    }
+    section.contact-info {
+        top:100px;
+    }
+  }
+  
+  @media (max-width:320px) {
+    
+    h1.logo {
+        padding:10px;
+        margin:30px 0 0 30px;
+        font-size: .8em;
+    }
+    .menu-trigger {
+        margin:20px 0 0 0;
+    }
+    .contact-info h1 {
+        letter-spacing: 8px;
+    }
+  }
