@@ -90,11 +90,10 @@ h1.logo.change-color:hover {
   text-align: center;
   height:100vh;
   color:whitesmoke;
-}
-.content-main h2 {
-  font-size:8em;
-  letter-spacing: 13px;
-  margin-bottom:0;
+  .intro h2 {
+    font-size: $h2-font-size;
+    margin:0;
+  }
 }
 .content-main h3 {
   font-size:3em;
