@@ -1,7 +1,31 @@
     .projects {
         margin:50px 0;
+        max-width:100%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 10px;
-        grid-auto-rows: minmax(100px, auto);
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-gap: 20px;
+        .project-image {
+            object-fit: cover;
+            padding:0 10px;
+            // margin: 0 20px;
+            overflow: hidden; 
+            img {
+                width:90%;
+                object-fit: cover;
+            }
+        }
+        .project-description {
+            position: relative;
+            padding:0 10px;
+            // margin:0 20px;
+            overflow: hidden; 
+            .description-content {
+                position: absolute;
+                top:0;
+                a {
+                    color:white;
+                    text-decoration: none;
+                }
+            }
+        }
     }
