@@ -13,7 +13,8 @@ html, body {
 body {
   font-family: 'Lato', sans-serif;
 	height:100vh;
-	background-color: #223f72;
+  background-color: #223f72;
+  position: relative;
 }
 
 .main {
@@ -26,4 +27,15 @@ body {
 .container {
   max-width:1100px;
   margin:0 auto;
+}
+
+a {
+  transition: all .3s;
+}
+
+footer {
+  // width:100%;
+  // background-color:gold;
+  // position: absolute;
+  // bottom:0;
 }

@@ -17,15 +17,28 @@
         .project-description {
             position: relative;
             padding:0 10px;
-            // margin:0 20px;
             overflow: hidden; 
             .description-content {
-                position: absolute;
-                top:0;
+                h3 {
+                    font-size:2.5em;
+                }
+                // position: absolute;
+                // top:0;
                 a {
-                    color:white;
+                    color:cornflowerblue;
                     text-decoration: none;
+                    &:hover {
+                        color:gold;
+                    }
                 }
             }
         }
     }
+
+    footer {
+        // padding:10px;
+        margin:10px;
+    span {
+        font-size:12px;
+    }
+}
